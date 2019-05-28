@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/ordinarygrey"
+
+    tools:context="com.example.panwar.i_m_s.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INSTITUTE MANAGEMENT SYSTEM"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/darkgrey"
+            android:id="@+id/textView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register Student"
+            android:textStyle="bold"
+            android:textColor="@color/darkgrey"
+            android:layout_marginTop="100dp"
+            android:textSize="20dp"
+            android:background="@drawable/shape"
+            android:id="@+id/button" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Courses"
+            android:textStyle="bold"
+            android:textColor="@color/darkgrey"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:id="@+id/button2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="@color/darkgrey"
+            android:background="@drawable/shape"
+            android:id="@+id/button3" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/darkgrey"
+            android:textSize="20dp"
+            android:background="@drawable/shape"
+            android:id="@+id/button4" />
+
+    </LinearLayout>
+</LinearLayout>

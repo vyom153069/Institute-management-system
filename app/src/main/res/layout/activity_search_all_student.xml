@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ordinarygrey"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="0.1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="ALL STUDENTS"
+            android:textColor="@color/darkgrey"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_weight="0.9"
+        android:layout_height="0dp">
+        <ListView
+            android:id="@+id/act_all_student_lv_listview"
+            android:layout_width="match_parent"
+            android:cacheColorHint="@color/blue"
+            android:divider="@color/creem"
+            android:dividerHeight="1px"
+            android:layout_height="wrap_content">
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

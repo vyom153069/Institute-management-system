@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IMS</string>
+    <string-array name="course">
+        <item>Select Course</item>
+        <item>Java</item>
+        <item>Android</item>
+        <item>CCNA</item>
+        <item>.NET</item>
+        <item>C++</item>
+        <item>DBMS</item>
+        <item>Networking</item>
+        <item>C</item>
+    </string-array>
+</resources>

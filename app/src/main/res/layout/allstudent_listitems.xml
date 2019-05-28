@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/extralightgrey"
+    android:layout_marginTop="2dp"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:gravity="left"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/adapter_all_student_tv_registrationNO"
+        android:layout_width="wrap_content"
+        android:text="Registration  ID  : 1"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/creem"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/adapter_all_student_tv_name"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Name:-Amol Panwar"
+            android:textColor="@color/darkgrey"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/adapter_all_student_tv_fathername"
+            android:layout_width="match_parent"
+            android:text="Father:- Xyz Abc"
+            android:layout_weight="1"
+            android:textColor="@color/creem"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/adapter_all_student_tv_course"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Course:- Java"
+            android:textColor="@color/creem"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/adapter_all_student_tv_mobile"
+            android:layout_width="match_parent"
+            android:text="Mobile:-9911245470 "
+            android:layout_weight="1"
+            android:textColor="@color/darkgrey"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/adapter_all_student_tv_address"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Address : 2 ,South Bhopa Road, New Mandi "
+        android:textColor="@color/creem"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

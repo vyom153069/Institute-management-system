@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.panwar.i_m_s">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ims_logo2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemeSplash">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SearchActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RegisterStudentActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".SearchAllStudent"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CourseActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>
